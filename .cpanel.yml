@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/campsp/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp products.json $DEPLOYPATH
